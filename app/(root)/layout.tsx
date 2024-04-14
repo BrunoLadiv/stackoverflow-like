@@ -1,7 +1,7 @@
 import React from 'react'
-import LeftSidebar from '@/components/shared/LeftSidebar'
-import RightSidebar from '@/components/shared/RightSidebar'
-import Navbar from '@/components/shared/navbar/Navbar'
+import LeftSidebar from '@/components/shared/LeftSideBar'
+import RightSidebar from '@/components/shared/RightSideBar'
+import Navbar from '@/components/shared/navbar/NavBar'
 import { Toaster } from '@/components/ui/toaster'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
